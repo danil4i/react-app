@@ -9,6 +9,7 @@ import Romanian from './Romanian/Romanian'
 import English from '../src/English/English'
 import PageSamohvalovEng from '../src/English/PageSamohvalovEng'
 import PageSamohvalovRo from '../src/Romanian/PageSamohvalovRo'
+import VideoPlayer from './Video';
 
 function App() {
   
@@ -23,8 +24,10 @@ function App() {
           <>
             <Header />
             <Info />
+            <VideoPlayer />
             <Main />
             <Footer />
+            
           </>
         )} />
         <Route path="/about" component={PageSamohvalov} />

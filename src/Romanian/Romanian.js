@@ -6,6 +6,7 @@ import Main from '../components/Main'
 import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min'
 import English from '../English/English'
+import VideoPlayer from '../Video'
 
 export default function Romanian() {
   return (
@@ -13,6 +14,7 @@ export default function Romanian() {
         <div>
         <HeaderRom />
             <InfoRom />
+            <VideoPlayer />
             <Main />
             <Footer />
 
