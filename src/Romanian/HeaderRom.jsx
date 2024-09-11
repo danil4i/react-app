@@ -49,7 +49,7 @@ export default function HeaderRom() {
         <h1>Serghei Samohvalov</h1>
 
       </div>
-      <div className='presentationRom'></div>
+      <div className='presentation'></div>
     </header>
   );
 }

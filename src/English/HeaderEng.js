@@ -49,7 +49,8 @@ export default function HeaderRom() {
         <h1>Serghei Samohvalov</h1>
 
       </div>
-      <div className='presentationEng'></div>
+      <div className='presentation'></div>
+      <div className='buttonImage'></div>
     </header>
   );
 }

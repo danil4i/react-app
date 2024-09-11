@@ -87,7 +87,7 @@ header .presentation, .presentationRom, .presentationEng {
 }
 
 header .presentation::after, .presentationRom::after, .presentationEng::after {
-  content: 'Лучшее медицинское решение'; 
+  
   position: absolute;
   color: #fff;
   font-weight: 600;
@@ -139,6 +139,17 @@ footer {
   max-width: 750px;
 }
 
+
+.clinics {
+  display: flex;
+  position: absolute;
+  margin-top: 75px;
+  flex-direction: column;
+}
+
+.clinique {
+  font-weight: 800;
+}
 /* Адаптация под мобильные устройства */
 
 @media (max-width: 768px) {
@@ -159,9 +170,12 @@ footer {
   }
 
   .presentation, .presentationRom, .presentationEng {
+    position: absolute;
     width: 100%;
     height: auto;
     max-width: 300px;
+    margin-top: 25px;
+   
   }
 
   .procedure {
@@ -173,6 +187,11 @@ footer {
   }
 }
 
+.serghei {
+  position: absolute;
+  margin-top: 25px;
+}
+
 @media (max-width: 480px) {
   header .nav {
     flex-wrap: wrap;
@@ -182,6 +201,7 @@ footer {
 
   header .presentation, .presentationRom, .presentationEng {
     max-width: 280px;
+    margin-top: 70px;
   }
 
   header .presentation::after, .presentationRom::after, .presentationEng::after {

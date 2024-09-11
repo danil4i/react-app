@@ -49,7 +49,7 @@ export default function Header() {
         </ul>
       </div>
      
-      <div className='presentationRom'></div>
+      <div className='presentation'></div>
       <div>
         <ul className='doctor'>
           <li>Chirurg-endoscopist</li> 
