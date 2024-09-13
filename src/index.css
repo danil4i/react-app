@@ -170,7 +170,8 @@ footer {
   }
 
   .presentation, .presentationRom, .presentationEng {
-    position: absolute;
+    align-items: center;
+    align-content: center;
     width: 100%;
     height: auto;
     max-width: 300px;
@@ -188,7 +189,8 @@ footer {
 }
 
 .serghei {
-  position: absolute;
+  align-items: center;
+  align-content: center;
   margin-top: 25px;
 }
 
